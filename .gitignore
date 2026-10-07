@@ -1,0 +1,35 @@
+# Visual Studio / .NET
+.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Portable runtime data generated locally
+ESPFlashStudio/Data/
+ESPFlashStudio/Tools/Python/
+ESPFlashStudio/Tools/PlatformIO/
+ESPFlashStudio/Tools/ArduinoCli/
+ESPFlashStudio/Tools/Esptool/
+ESPFlashStudio/Tools/Git/
+ESPFlashStudio/Tools/Bootstrap/
+ESPFlashStudio/Tools/_cache/
+ESPFlashStudio/Tools/tools-manifest.json
+
+# Build products / firmware artifacts
+**/.pio/
+**/artifacts/
+*.bin
+*.elf
+*.map
+*.hex
+*.uf2
+
+# Logs / temporary files
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
